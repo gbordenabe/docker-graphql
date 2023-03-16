@@ -31,4 +31,4 @@ jobs:
         
     - name: Push Docker Image
       run: |
-        docker build -t gbordenabe/docker-graphql:0.0.2 .
+        docker push -t gbordenabe/docker-graphql:0.0.2
